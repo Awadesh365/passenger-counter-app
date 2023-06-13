@@ -33,12 +33,12 @@ function add3points() {
 function remove1Point() {
     myPoints--;
 }
-for (let i = 0; i < 3; i++)
+for (let i = 0; i < 3; i++){
     add3points();
-
-for (let i = 0; i < 2; i++)
+}
+for (let i = 0; i < 2; i++){
     remove1Point();
-
+}
 console.log(myPoints);
 
 // 22
