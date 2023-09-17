@@ -53,12 +53,12 @@ function showTotal() {
   essentialFunction();
 
   // Update the displayed total count
-  totalEl.textContent = "Total People On Platform:-" + total;
+  totalEl.textContent = "Total Challenges Completed:-" + total;
 
   // Reset the current count and update the displayed count and entries
   count = 0;
   countEl.textContent = 0;
-  saveEl.textContent = "Previous entries:";
+  saveEl.textContent = "Challenges Accomplished:";
 }
 
 // Function to reset and start from scratch
@@ -66,7 +66,7 @@ function letStartFromScratch() {
   // Reset current and total counts, and update displayed elements
   count = 0;
   countEl.textContent = 0;
-  saveEl.textContent = "Previous entries:";
+  saveEl.textContent = "Challenges Accomplished:";
   total = 0;
-  totalEl.textContent = "Total People On Platform:-";
+  totalEl.textContent = "Total Challenges Completed:-";
 }
