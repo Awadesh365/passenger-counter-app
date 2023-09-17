@@ -1,3 +1,3 @@
 # passangerCounterApp
 
-This website is Live at :- https://incandescent-croissant-5d868e.netlify.app/
+This website is Live at :- https://fitness-progress-keeper-kdcqporrk-awadesh365.vercel.app
