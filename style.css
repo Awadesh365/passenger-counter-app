@@ -12,6 +12,8 @@ body {
     font-weight: bold;
     text-align: center;
     /* Center-align text */
+
+    height: 100vp;
 }
 
 /* Styling for the total button */
