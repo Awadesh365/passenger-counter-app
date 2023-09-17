@@ -1,24 +1,34 @@
-let count = 0;
-let cntElement = document.getElementById("count-el");
-console.log(cntElement);
+// document.getElementById("count-el").innerText = 5;
+
+//-----------PeopleCounter Logic-------------
+
+let saveEl = document.getElementById("save-el");
+let countEl = document.getElementById("count-el");
+
+let total = 0,
+  count = 0;
+
+let Total = document.getElementById("total-el");
 
 function increment() {
-    count++;
-    console.log(count);
-    document.getElementById("count-el").textContent = count;
+  count++;
+  total++;
+
+  countEl.innerText = count;
 }
 
 function save() {
-    let savedVariable = document.getElementById("count-el").textContent;
-    console.log(savedVariable);
+  let previousEntries = " " + count + " " + " - ";
 
-    let saveEl = document.getElementById("save-el");
+  saveEl.innerText += previousEntriese;
 
-    saveEl.textContent += " " + savedVariable + " - ";
+  console.log(total);
 
-    let setToZero = document.getElementById("count-el").textContent = 0;
-    count = 0;
+  count = 0;
 }
 
-
-
+function showTotal() {
+  document.getElementById("total-el").innerText =
+    "Total People On Platform:-" + total;
+  count = 0;
+}
